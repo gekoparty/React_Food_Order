@@ -11,7 +11,7 @@ const Header = (props) => {
         <h1>Geko's Meals</h1>
         <HeaderCartButton onClick={props.onShowCart}/>
       </header>
-      <div class={classes['main-image']}>
+      <div className={classes['main-image']}>
           <img src={mealsImage} alt="A table full of delious food"/>
       </div>
     </React.Fragment>
